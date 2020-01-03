@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee96b6979362e94ab078db0c47b3a1c, type: 3}
+  m_Name: SoundFX
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: Punch
+    volume: 0.5
+    deadTime: 0.05
+    sounds:
+    - {fileID: 8300000, guid: 435d0e2637d39a741bde24a84212a23a, type: 3}
+    randomize: 1
+    pitchRndValue: 0.1
+    volumeRndValue: 0.322
+    interruptible: 0
+    maxSoursesCount: 0
+    loop: 0
+    fadeOutTime: 0
+    loopMode: 0
+    maxLoopCount: 0
+    fadeStartTime: 0
+    fadeDuration: 0
+  - groupID: Block
+    volume: 0.472
+    deadTime: 0.05
+    sounds:
+    - {fileID: 8300000, guid: c5240944620e8f54192f52e8186d3fa7, type: 3}
+    randomize: 1
+    pitchRndValue: 0.1
+    volumeRndValue: 0.322
+    interruptible: 0
+    maxSoursesCount: 0
+    loop: 0
+    fadeOutTime: 0
+    loopMode: 0
+    maxLoopCount: 0
+    fadeStartTime: 0
+    fadeDuration: 0
+  - groupID: Bite
+    volume: 1
+    deadTime: 0.05
+    sounds:
+    - {fileID: 8300000, guid: 943c4b32fd17f95469a4f9f12dfeb34f, type: 3}
+    randomize: 1
+    pitchRndValue: 0.1
+    volumeRndValue: 0.322
+    interruptible: 0
+    maxSoursesCount: 0
+    loop: 0
+    fadeOutTime: 0
+    loopMode: 0
+    maxLoopCount: 0
+    fadeStartTime: 0
+    fadeDuration: 0
+  editMode: 0
